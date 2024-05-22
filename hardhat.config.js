@@ -1,7 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 
-const API_KEY = "INFURA-SEPOLIA-API_KEY";
-const PRIVATE_KEY = "METAMASK PRIVATE KEY"
+const HTTPS_ENDPOINT = "INFURA SEPOLIA HTTPS END POINT";
+const PRIVATE_KEY = "METAMASK PRIVATE KEY";
 
 module.exports = {
   defaultNetwork: "sepolia",
@@ -9,7 +9,7 @@ module.exports = {
     hardhat: {
     },
     sepolia: {
-      url: API_KEY,
+      url: HTTPS_ENDPOINT,
       accounts: [PRIVATE_KEY],
     }
   },
