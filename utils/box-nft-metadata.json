@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Chipset",
+      "value": "NVIDIA GeForce GTX 1070 Ti"
+    },
+    {
+      "trait_type": "Video Memory",
+      "value": "8GB GDDR5"
+    }
+  ],
+  "name": "Box",
+  "description": "Video card box",
+  "image": "PINATA_IPFS_IMAGE_URI"    
+}
