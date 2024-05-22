@@ -20,6 +20,11 @@ const PRIVATE_KEY = "{Мой MetaMask private key}"
 npx hardhat compile
 ```
 
+Протестируем
+```
+npx hardhat test --network hardhat
+```
+
 Деплоим
 ```
 npx hardhat run scripts/deploy.js --network sepolia
