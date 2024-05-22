@@ -1,3 +1,5 @@
+![meme](./content/meme.jpg)
+
 Вначале устанавливаем все пакеты
 ```
 npm install
