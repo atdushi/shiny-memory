@@ -13,14 +13,14 @@ async function main() {
     console.log(`Deploying contract from: ${contractOwner[0].address}`);
   
     // Hardhat helper to get the ethers contractFactory object
-    const my1070NFT = await hre.ethers.getContractFactory('My1070NFT');
+    const myVideoCardNFT = await hre.ethers.getContractFactory('MyVideoCardNFT');
   
     // Deploy the contract
-    console.log('Deploying My1070NFT Contract...');
-    const myPetNFTToken = await my1070NFT.deploy();
+    console.log('Deploying MyVideoCardNFT Contract...');
+    const myPetNFTToken = await myVideoCardNFT.deploy();
     await myPetNFTToken.waitForDeployment();
 
-    console.log(`MyPetNFT Contract deployed to Sepolia TestNet and the contract address is : ${await myPetNFTToken.getAddress()} \n`);
+    console.log(`MyVideoCardNFT Contract deployed to Sepolia TestNet and the contract address is : ${await myPetNFTToken.getAddress()} \n`);
   
 }
 
